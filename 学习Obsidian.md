@@ -10,7 +10,7 @@
 
 之后需要安装插件。
 
-![[Pasted image 20260114213623.png]]
+
 
 我不太明白，为什么你需要特立独行弄一个引用格式。也行吧，没有关系，之后调整。
 
@@ -25,3 +25,9 @@
 以及，很基础的Markdown语法。
 
 好在我也没有在它的图片功能上折腾，我们直接看技术爬爬虾的实践
+
+[也许是B站最好的Obsidian新手教程！爆肝30天，一站式入门双向链接笔记软件｜黑曜石_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18a411r7mt?spm_id_from=333.788.recommend_more_video.-1&trackid=web_related_0.router-related-2206419-pwgnb.1768398749994.531&vd_source=c7ebf7408123ab5de1032a62a32045bd)
+
+也是一个非常好的视频。就有一点累了，或许，或许我还是回到Typora当中吧。
+
+但是，明天我会在Obsidian当中整理我全部的Flomo的笔记的，[碎碎念](zplan.md#碎碎念)，[[zplan.md#碎碎念]]
