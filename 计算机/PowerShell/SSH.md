@@ -20,4 +20,11 @@ cascadia-code
 它是否想过，这有一点多，它就没有想过写一个脚本来批量安装吗？
 
 
+### [blueish](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/blueish.omp.json "blueish")
+
+[Themes | Oh My Posh](https://ohmyposh.dev/docs/themes)
+
+我要说，高低有一点好看又好玩了。
+
+blueish
 
