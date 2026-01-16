@@ -28,3 +28,5 @@ cascadia-code
 
 blueish
 
+ Remove-Item -Path "$env:LOCALAPPDATA\Packages\ohmyposh.cli_96v
+  55e8n804z4\LocalCache\Local\oh-my-posh" -Recurse -Force  -ErrorAction SilentlyContinue
