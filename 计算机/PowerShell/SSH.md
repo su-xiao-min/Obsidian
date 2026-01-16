@@ -30,3 +30,10 @@ blueish
 
  Remove-Item -Path "$env:LOCALAPPDATA\Packages\ohmyposh.cli_96v
   55e8n804z4\LocalCache\Local\oh-my-posh" -Recurse -Force  -ErrorAction SilentlyContinue
+
+
+| 我     | 们             | 还可以               | 也行 | 但是 |
+| ------ | -------------- | -------------------- | ---- | ---- |
+| 还可以 | 我感觉可以使用 | 就是不知道渲染的结果 | 希望 | 也好     |
+
+这个不能即时渲染，高低是有一些鸡肋。
