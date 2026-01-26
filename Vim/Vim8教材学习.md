@@ -5,17 +5,15 @@
 就合适我这样的废物。
 
 狭义单词 -> word
-广义单词 -> WORD 
+广义单词 -> WORD
 
 这也是我我们三个经典操作，
 对应的大小写的区别
-`w` hello of next word 
-`W` begin_of of_next_WORD 
+`w` hello of next word
+`W` begin*of of_next_WORD
 但是我的NeoVim有着自己的想法。
-它也是把`_` 视作单词的一部分
-begin@end begin——end begin_end
-`e` end of current word or next word 
-`E`
+它也是把`*`视作单词的一部分
+begin@end begin——end begin_end`e`end of current word or next word `E`
 `b`
 `B`
 
@@ -25,7 +23,6 @@ cw equals ce ,but I don’t think it a problem.
 并且进入INSERT MODE ，很有趣。
 
 `u` 和 Ctrl + R 是逆操作，蛮有趣的。
-
 
 我草，学到新操作了，
 可以使用
@@ -41,9 +38,8 @@ cw equals ce ,but I don’t think it a problem.
 标签页管理这么基础的功能，
 你Vim怎么可能没有实现呢？
 
-
-`split` or `sp` 
-`vsplit` or `vs` 
+`split` or `sp`
+`vsplit` or `vs`
 可以分屏，大大的好，
 这样就不需要我去多开进程了。
 
@@ -58,9 +54,9 @@ Ctrl + W Q 就可以关闭一个窗口。
 
 可以使用
 `:on` 关闭其他窗口，
-很好用，有没有 
-使用 
-`:bd` 
+很好用，有没有
+使用
+`:bd`
 可以删除当前缓冲区，并且关闭窗口。
 
 另外是在PowerShell当中原生的切换窗口和调整窗格大小的方式。
@@ -108,7 +104,6 @@ NeoVim & Vim的区别究竟是什么
 回答确实还可以。
 
 你解释一下LSP、DAP、Tree-sitter等名词，它们在IDE中的价值是什么？在NeoVim当中有怎样的体现。另外，我想要LazyVim写Markdown文本，但是目前它无法生成标题目录，我应该怎样做。
-
 
 话说我感觉这个自动补全的功能有一点耽误我书写了，我写下一段话之后，如果我不是输入空格，而是直接Enter准备换行，那么它的自动补全可能误以为我想使用它的提示项，我应该怎么解决这个问题。
 
