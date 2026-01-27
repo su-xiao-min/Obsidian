@@ -1,1 +1,1 @@
-ht
+Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
