@@ -6,3 +6,5 @@ Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
 不过，
 我不打算和我的输入法折腾。
 不，你可以。
+
+怎么升级到windows
