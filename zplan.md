@@ -7,4 +7,4 @@ Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
 我不打算和我的输入法折腾。
 不，你可以。
 
-怎么升级到windows
+怎么升级到windows11
