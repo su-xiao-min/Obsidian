@@ -8,3 +8,11 @@ Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
 不，你可以。
 
 怎么升级到windows11
+
+我有一点小问题，
+首先，
+是vivo它也需要API Key，
+两个都写成metadata，不会混淆吗？
+另外，接口文档也没有说这样传递参数，
+为什么代码可以正常接受呢？
+第二，
