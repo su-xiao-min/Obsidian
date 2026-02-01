@@ -16,3 +16,11 @@ Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
 另外，接口文档也没有说这样传递参数，
 为什么代码可以正常接受呢？
 第二，
+
+我刚才看着我们leader写代码。
+
+过春节为什么没有以前那种浓浓的年味了？ - 萌橙的回答 - 知乎
+https://www.zhihu.com/question/1975594481895101330/answer/1997864816925233598
+
+我草，写的太尼玛好了。
+
