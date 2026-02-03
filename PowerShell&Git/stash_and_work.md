@@ -126,3 +126,5 @@ modified:   src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java
 算了，算了，
 我们就不要和AI争论这个问题了，
 这太严肃了。
+
+`New-Item -Type SymbolicLink -target  "C:\Users\tncet\xwechat_files\wxid_e89v1bnterg922_c379\msg\file\2026-02\" -Path "E:\x"`
