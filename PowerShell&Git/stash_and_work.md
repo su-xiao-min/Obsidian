@@ -70,3 +70,59 @@ git restore run_sql.py
 
 多次commit
 一次push
+
+
+
+
+
+# Stash
+
+帮我解释一下，我之前git stash了一份修改，之后我想把它弄出来，但是，貌似我好像弄出来了一些乱子，换言之，我git stash的时候，其实已经有了一些提交，之后我又使用了reset，然后，我基于reset之后的原始分支，再git stash pop 于是，就
+
+```
+tncet  teamerp2-data  ➜ ( dev-opush  1)  ♥ 20:00  git stash pop
+CONFLICT (modify/delete): src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java deleted in Updated upstream and modified in Stashed changes.  Version Stashed changes of src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java left in tree.
+CONFLICT (modify/delete): src/main/resources/sql/message_push_history.sql deleted in Updated upstream and modified in Stashed changes.  Version Stashed changes of src/main/resources/sql/message_push_history.sql left in tree.
+On branch dev-opush
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        modified:   src/main/java/com/tncet/erp/controller/tests/TestController.java
+        modified:   src/main/java/com/tncet/erp/declare/enums/DeviceBrand.java
+        modified:   src/main/java/com/tncet/erp/interceptor/BaseInterceptor.java
+        modified:   src/main/resources/application.yml
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        deleted by us:   src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java
+        deleted by us:   src/main/resources/sql/message_push_history.sql
+
+The stash entry is kept in case you need it again.
+tncet  teamerp2-data  ➜ ( dev-opush  1)  ♥ 20:00  git status
+On branch dev-opush
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        modified:   src/main/java/com/tncet/erp/controller/tests/TestController.java
+        modified:   src/main/java/com/tncet/erp/declare/enums/DeviceBrand.java
+        modified:   src/main/java/com/tncet/erp/interceptor/BaseInterceptor.java
+        new file:   src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java
+        modified:   src/main/resources/application.yml
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        deleted by us:   src/main/resources/sql/message_push_history.sql
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+modified:   src/main/java/com/tncet/erp/service/impl/OPPOMessagePushService.java
+```
+
+  这高低有一点让我看不懂了。
+
+算了，算了，
+我们就不要和AI争论这个问题了，
+这太严肃了。
