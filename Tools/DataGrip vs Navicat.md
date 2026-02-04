@@ -1,0 +1,4 @@
+我的leader周老师建议我使用Navicat
+然后对比一下，
+DataGrip的强大功能不是我可以驾驭
+但是Navicat用起来真的很爽。
