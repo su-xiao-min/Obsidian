@@ -12,10 +12,13 @@
 
 MySQL的架构。
 
-[https://blog.csdn.net/fuzhongmin05/article/details/70904190](https://blog.csdn.net/fuzhongmin05/article/details/70904190)
+[CSDN-MySQL逻辑架构](https://blog.csdn.net/fuzhongmin05/article/details/70904190)
 
-可惜你不能渲染图片。
+可惜你不能渲染图片。可惜这不是一张图片
 
+下面这个才是
+
+![](assets/ACID/file-20260204123447475.png)
 在MySQL当中，事务如下操作
 
 ```sql 

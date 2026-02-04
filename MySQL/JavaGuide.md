@@ -29,9 +29,4 @@
 - [技术同学必会的 MySQL 设计规约，都是惨痛的教训 - 阿里开发者](https://mp.weixin.qq.com/s/XC8e5iuQtfsrEOERffEZ-Q)
 - [聊聊数据库建表的 15 个小技巧](https://mp.weixin.qq.com/s/NM-aHaW6TXrnO6la6Jfl5A)
 
-------
-
-著作权归JavaGuide(javaguide.cn)所有 基于MIT协议 原文链接：https://javaguide.cn/database/mysql/mysql-high-performance-optimization-specification-recommendations.html
-
-改天继续从这里开始读，反正都是八股，看完就会忘记，但是面试的时候需要记得，上手的时候也要记得和AI交流。
 
