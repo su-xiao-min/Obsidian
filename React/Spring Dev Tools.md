@@ -14,6 +14,15 @@ Spring Dev Tools
 都要考虑到修改的时候会影响别人，
 导致我什么都不敢添加。
 
+[Spring Boot + devtools 轻松搞定热部署 | 潘志的技术笔记](https://www.pzblog.cn/springboot/basic/springboot-devtools.html#%E4%BA%94%E3%80%81%E5%8F%82%E8%80%83)
+
+算了
+那么麻烦的事情
+之后和leader讨论一下吧
+
+[(62 封私信) 在IDEA中配置Spring Boot DevTools - 知乎](https://zhuanlan.zhihu.com/p/688021990)
+
+这个也可以参考一下
 
 ## 一、Spring Boot DevTools 的核心作用
 
