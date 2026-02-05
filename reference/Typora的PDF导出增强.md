@@ -1,18 +1,4 @@
-
-```html
-<style>
-/* 自定义页眉样式 */
-@page {
-    margin-top: 100px; /* 为页眉图片留出空间 */
-    
-    @top-left {
-        content: "";
-        background-image: url('file://E:/I/logo.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 150px;
-        height: 50px;
-    }
-}
-</style>
-```
+答案是，
+我失败了，
+也不是完全失败了，
+失败了一点点。
