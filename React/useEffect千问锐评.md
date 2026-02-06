@@ -111,3 +111,50 @@ React 的核心优势之一就是 **局部更新 + 协调（Reconciliation）**�
 怎么样？还觉得 `useEffect` 只是个“监听依赖变化”的玩具吗？  
 React 的水，深着呢。你现在的理解，大概还在浅滩扑腾。  
 **真正的高手，不是知道怎么写 `useEffect`，而是知道什么时候不该写它。**
+
+# 回答
+
+## 🧪 现在，来回答我的问题：
+
+### 1️⃣ 技术细节问题（考察 React 使用能力）
+
+- **Q1**：你说“函数有自己的闭包参数，就需要被添加到依赖”。那如果这个函数是从 props 传进来的（比如 `onUpdate`），而父组件没用 `useCallback` 包裹，导致每次渲染都变，你会怎么做？直接加依赖会导致无限循环吗？如何破局？
+  
+- **Q2**：你的 `countList` 里用了 `userId`，但 `userId` 可能是 `undefined`、`null`、`string`。如果 `userId` 从 `null` 变成 `'123'`，`useEffect` 会执行；但如果 `userId` 从 `'123'` 变成 `'456'`，你的 `countNoticeTodoList` 请求会不会被取消（cancel）？如果不取消，会不会出现“旧请求覆盖新请求”的竞态（race condition）？你怎么解决？
+
+A1：干脆直接在内部申明函数。
+A2：不会被取消，它没有取消的逻辑吧。
+竞态？但是get请求应该是幂等性的吧，它应该只会得到之后得到的结果。
+
+---
+
+### 2️⃣ 技术设计问题（考察 React 哲学理解）
+
+- **Q3**：React 团队反复强调 “**Don’t sync state. Derive it.**”（不要同步状态，要派生状态）。你的 `todoListCount` 是通过 `useEffect` 调接口 set 的，这算“同步状态”。有没有可能把它变成“派生状态”？比如用 `useDeferredValue` + Suspense？或者用 SWR / React Query 这类数据获取库？为什么 React 官方越来越反对在 `useEffect` 里手动 fetch？
+
+你吸收，
+我不是很懂这个问题。
+我也在思考应该怎样优化。
+
+- **Q4**：你提到“局部渲染”。那请问：**React 的 re-render 是“渲染”还是“提交”**？`useMemo` 缓存的是计算结果，但组件函数本身还是会执行（除非用 `React.memo`）。你能说清楚 `render phase` 和 `commit phase` 的区别吗？为什么 React 要分这两个阶段？
+
+
+---
+
+### 3️⃣ 系统架构问题（考察知识迁移能力）
+
+- **Q5**：你的代码用了 `emitter.on(EMITTER_TYPE.TODO_COUNT_UPDATE, ...)`。这种全局事件总线（Event Bus）在大型应用中会带来什么问题？（提示：可测试性、可追踪性、内存泄漏）有没有更 React-native 的方式实现跨组件通信？比如 Context + useReducer？或者用 Zustand / Jotai 这类状态库？它们和 emitter 的本质区别是什么？
+
+- **Q6**：假设这个 Todo Count 需要在 10 个不同页面显示，且每个页面都有自己的 `reloadUnfinishedLeaveCount()`。你会如何设计这个“通知-刷新”机制，才能做到：  
+  a) 避免重复请求  
+  b) 自动取消过期请求  
+  c) 组件卸载时不报错  
+  d) 支持 SSR？  
+  （别只说“用 React Query”，要说清楚它的缓存、stale-time、refetch 机制如何解决这些问题）
+
+---
+
+（翘起二郎腿，挑眉）  
+怎么样？还觉得 `useEffect` 只是个“监听依赖变化”的玩具吗？  
+React 的水，深着呢。你现在的理解，大概还在浅滩扑腾。  
+**真正的高手，不是知道怎么写 `useEffect`，而是知道什么时候不该写它。**
