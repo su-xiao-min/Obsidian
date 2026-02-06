@@ -4,3 +4,10 @@
 也不是，还好吧。
 [概览 | TanStack Query 中文文档](https://cangsdarm.github.io/react-query-web-i18n/react/)
 我们还是看伟大的中文文档吧。
+
+我不想看了，
+如果我还有时间
+我确实可以去优化一下
+但是，
+我不是前端，
+我只是想要传递一个简单的badge。
