@@ -36,6 +36,11 @@ class Solution {
 所以我就开始学习stream了，
 感觉之前对于这个东西用得一直都不多诶。
 
+[使用Stream - Java教程 - 廖雪峰的官方网站](https://liaoxuefeng.com/books/java/functional/stream/index.html)
+
+大师，我好久没有看你的文章了，
+初看我还是一个懵懂的小孩，如今我已经写了，几乎没有怎么写代码。
+
 ```java
 import java.util.*;
 
@@ -63,3 +68,6 @@ public class Main {
 ```
 
 我草，还可以这样操作！reduce还能这样玩……
+
+太强大了，感觉自己从来都没有学习过Stream。
+
