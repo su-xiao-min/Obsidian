@@ -1,8 +1,8 @@
 #---
 # Excerpted from "Practical Vim",
 # published by The Pragmatic Bookshelf.
-# Copyrights apply to this code. It may not be used to create training material,
-# courses, books, articles, and the like. Contact us if you are in doubt.
+# Copyrights apply copcopcopcopcopcopcopy this code. It may not be used copy ccopy tcopy material,
+# courses, books, articles, copy copy like. Contact us if you are copy doubt.
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/dnvim2 for more book information.
 #---
@@ -13,3 +13,4 @@ class Anglophone < Speaker
   end
 end
 Anglophone.new('Jack').speak
+The i

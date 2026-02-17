@@ -15,6 +15,10 @@ vim & LaTeX
 [【LaTeX】新手教程：从入门到日常使用 - 知乎](https://zhuanlan.zhihu.com/p/456055339)
 
 [Vscode：使用 Vim 提升生产力进阶指南 - 知乎](https://zhuanlan.zhihu.com/p/644492401)
+我要是那时候觉得它麻烦多好，
+要是那时候我就专心和我的Typora相伴，
+但是，
+我终于履行了承诺。
 
 但是，都好麻烦，改天总弄吧。
 
@@ -109,6 +113,13 @@ $$
 \mathscr{AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTt}\\
 \mathscr{UuVvWwXxYyZz}
 $$
+
+当时真的太无聊了，
+就什么都铺在上面了，
+无聊到写数学公式，
+因为那时候，
+很宝贵的书，
+还没有邂逅。
 
 ## 1月21号
 
@@ -299,10 +310,13 @@ eup,1=υ │
 [七日seven days【2020拜年祭单品】\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1KJ411C7Yh/?spm_id_from=333.337.search-card.all.click&vd_source=c7ebf7408123ab5de1032a62a32045bd)
 
 上海！
-
 上海！
-
 超级想去上海！
+但是，
+不会因为你超级想去上海，
+你就有机会的。
+我终于没有通过字节跳动的面试，
+但是我还是去了上海。
 
 ![image-20260125104935427](C:\Tymage\image-20260125104935427.png)
 
@@ -311,47 +325,30 @@ eup,1=υ │
 ## 2026年1月25日
 
 今天的计划又弄乱了。
-
 我也不知道怎么的，
-
 本来想要开始学习C语言，
-
 结果光顾着想着怎么让图片在终端复制，
-
 我感觉，
-
 这种功能，还是在Markdown当中实现吧。
 
 为什么我要为难我的命令行呢？
-
 我想不明白。
-
 反正都使用Typora，
-
 何乐而不为呢？
-
 我真傻，
-
 真的。
 
 有时候需要捋一下，我究竟是怎么开始学习Nvim的。
-
 可能就是始于蛋老师的那个视频，
-
 但是，说到底，
-
 我还是感觉，Visual Studio Code，实在是伟大的存在。
-
 不多说了，
 
 我们继续看视频。
-
 我不需要那么多图片，
-
 实际上，Typora当中使用的Markdown图片我都很少使用，
 
 好好学习，
-
 先使用集成IDE，再考虑其他的内容。
 
 New-Item -Type SymbolicLink -target "C:\C\" -Path "C:\W\C"
@@ -415,6 +412,12 @@ https://suxiaomin-tuil.oss-cn-wuhan-lr.aliyuncs.com
 晚上可以看一下三个up主。
 
 [飞天闪客](https://space.bilibili.com/325864133)
+[OpenClaw](https://www.bilibili.com/video/BV1sSF6z3Eku/?spm_id_from=333.1387.homepage.video_card.click&vd_source=c7ebf7408123ab5de1032a62a32045bd)，
+写得很好，
+为什么当时我要折腾这个垃圾，
+好博主，
+我关注你了，
+不过我暂时能力还没有这么强。
 
 程序员鱼皮
 
@@ -440,3 +443,33 @@ C:\Users\thewo\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\Lo
 把profile配置一下。
 
 NeoVim
+
+Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
+[【补漏拾遗】windows 终端的自定义命令 | $PROFILE 文件的简单使用 - 芝士故梦 - 博客园](https://www.cnblogs.com/pastdream/p/19540323)
+这东西还挺好的。
+所以后来我就在上面折腾了好久，
+从前真的好蠢，
+好蠢，
+真的好蠢。
+
+然后，我把我的终端弄得非常好看，
+不过，
+我不打算和我的输入法折腾。
+不，你可以。
+
+怎么升级到windows11
+公司的电脑不配……
+我有一点小问题，
+首先，
+是vivo它也需要API Key，
+两个都写成metadata，不会混淆吗？
+另外，接口文档也没有说这样传递参数，
+为什么代码可以正常接受呢？
+第二，
+
+我刚才看着我们leader写代码。
+
+过春节为什么没有以前那种浓浓的年味了？ - 萌橙的回答 - 知乎
+https://www.zhihu.com/question/1975594481895101330/answer/1997864816925233598
+
+我草，写的太尼玛好了。

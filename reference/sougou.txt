@@ -20,7 +20,7 @@ v,1=只
 ; 代码相关 - Java技术栈
 ; ========================================
 java,1=Java
-java,2=Javascript
+java,2=JavaScript
 java,3=JavaGuide
 javag,1=JavaGuide
 java,4=```java
@@ -43,7 +43,7 @@ py,2=```python
 ; ========================================
 ; 代码相关 - Web开发
 ; ========================================
-js,1=javascript
+js,1=javaScript
 js,2=```javascript
 
 node,1=Node
@@ -61,6 +61,7 @@ sql,1=SQL
 sql,2=```sql
 sql,3=PostgreSQL
 postgre,1=PostgreSQL
+pg,1=PostgreSQL
 mys,1=MySQL
 myi,1=MyISAM
 inno,1=InnoDB
@@ -169,6 +170,7 @@ whyvjt,1=王玉珏
 xuyj,1=许焱
 HL,1=黄鑫
 kzyb,1=寇垠
+uiyvfa,1=施雨霏
 bdhsfw,1=白宏飞
 thsisi,1=唐思思
 vhyaif,1=张娅宸

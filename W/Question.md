@@ -8,7 +8,7 @@
 
 同时，我们也要考虑到，相当多的场景，并发会降低效率的。因为，当你切换工作内容的时候，相当于你清空了工作记忆，相当于你的注意力八爪鱼放下好难才抓住的逻辑锁链。
 
-***
+---
 
 本地的markdown图片直接导出成HTML会出现什么问题。
 
@@ -26,8 +26,6 @@
 
 不过我现在自动上传到图床里面，也不需要。
 
-
-
 ## EPR是什么
 
 记错了，不是电子顺磁共振波谱，而是 ERP
@@ -39,29 +37,62 @@ https://www.zhihu.com/question/387739798/answer/1168082216
 
 进行业务梳理，等等。订单时间。
 
+---
+
+天啊，
+当时在这里提问，
+也想不到，
+之后有一天，
+自己真的会去企业干ERP，
+当然对于企业来说，
+ERP应该是最简单的项目，
+但是就是这样简单的项目我也没有做好。
+
+## git reset & sysbolic link
+
 对那些在git中进行管理的文件，如果在其他地方创建了链接，那么git reset之后，它们会怎么改变呢？
 
+额，
+这个问题还真的不好回答，
+这要取决于git是怎么管理版本的，
+但是符号链接其实只是建立一个路径的链接而已，
+而硬链接，
+这个就真的有趣了，
+这要取决于，
+git 是copyonwrite，还是其他的策略。
+我倾向于它是copyonwrite，
+我们可以现在测试一下。
 
-
-
+## 标题的多种写法
 
 为什么---会变成标题
-
 这个问题其实我知道的，我从来都知道的。
 
+为什么要兼容这种语法，
+太逆天了，
+分割线和一级标题只有一步之遥。
 
+我的Nvim也感觉这种写法太逆天了，
+都不想标记标记级别了。
 
 ## flomo录音链接
 
-<audio data-v-bacd7b40="" src="https://flomo.oss-cn-shanghai.aliyuncs.com/file/2025-12-15/2393027/176576246752213D1218B8FDC45E2.m4a?OSSAccessKeyId=LTAI5tAXfrgN5cBQ7Bym1EcM&amp;Expires=1766021818&amp;Signature=%2FAEz7wyKallBsU%2F7kFoyP0Gj8xY%3D"> </audio>
-
+<audio data-v-bacd7b40="" 
+src="https://flomo.oss-cn-shanghai.aliyuncs.com
+/file/2025-12-15/2393027/176576246752213D1218B8FDC45E2.m4a
+?OSSAccessKeyId=LTAI5tAXfrgN5cBQ7Bym1EcM&amp;
+Expires=1766021818&amp;
+Signature=%2FAEz7wyKallBsU%2F7kFoyP0Gj8xY%3D">
+</audio>
 
 请你帮我回答一个问题，我使用flomo的录音功能，直接我把它附带录音的文本复制到markdown当中，是如上的样子，结果过了一段时间，我发现这个录音就不能被使用了，我继续在flomo中检索，发现录音的地址已经改编成下面这个了。这是为什么？
-
 
 <audio data-v-bacd7b40="" src="https://flomo.oss-cn-shanghai.aliyuncs.com/file/2025-12-15/2393027/176576246752213D1218B8FDC45E2.m4a?OSSAccessKeyId=LTAI5tAXfrgN5cBQ7Bym1EcM&amp;Expires=1766470890&amp;Signature=DpE4UZUkPCMEqcTPb1tM03sM1Mc%3D"></audio>
 
 好的，现在两个录音都已经过期了。
+
+> 这有什么好看不明白的，
+> 我怀疑我当时就是纯粹想再加深一下对于这个东西的理解
 
 你遇到的问题，是由于 **flomo 使用了带有临时访问权限的 OSS（阿里云对象存储）预签名 URL** 来提供录音文件的访问。
 
@@ -126,5 +157,3 @@ https://flomo.oss-cn-shanghai.aliyuncs.com/...?OSSAccessKeyId=...&Expires=176602
 > flomo 的录音链接是**带时效的临时链接**，过期后无法播放。这不是 bug，而是安全机制。若需长期使用，请提前下载原始音频文件。
 
 如有其他关于 flomo 数据导出或备份的问题，也欢迎继续提问！
-
-直到写完整个
