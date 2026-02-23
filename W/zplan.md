@@ -473,3 +473,10 @@ Move-Item $env:LOCALAPPDATA\nvim.bak $env:LOCALAPPDATA\nvim
 https://www.zhihu.com/question/1975594481895101330/answer/1997864816925233598
 
 我草，写的太尼玛好了。
+
+社会学将来会有什么出路吗？ - 风拂衣衫的回答 - 知乎
+
+https://www.zhihu.com/question/398100493/answer/1908642761357371292
+本质主义，社会学挺好的，我也改变了。
+
+改天看一下吧，但是暂时还是不要看了。
