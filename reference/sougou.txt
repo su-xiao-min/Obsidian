@@ -24,6 +24,7 @@ java,2=JavaScript
 java,3=JavaGuide
 javag,1=JavaGuide
 java,4=```java
+jg,1=JavaGuide
 sb,1=Spring Boot
 sp,1=Spring
 myb,1=MyBatis
@@ -152,7 +153,7 @@ clash,1=Clash Verge
 wire,1=Wireshark
 oc,1=OneCommander
 oc,2="C:\tools\One Commander\OneCommander.exe"
-qq,1=QQ
+qqq,1=QQ
 
 ; ========================================
 ; 人名
@@ -234,8 +235,6 @@ email,1=2023301043018@whu.edu.cn
 email,2=2123906949@qq.com
 emailcode,1=whu55yzxl
 student,1=2023301043018
-qq,1=2123906949
-qq,2=sigc586ihhf
 idcard,1=420322200606153917
 school,1=信息管理学院
 class,1=数字文化本硕博试验班
