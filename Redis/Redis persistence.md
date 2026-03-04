@@ -1,5 +1,11 @@
 Redis' three persistence ways
 
+## 小林coding
+
+https://xiaolincoding.com/redis/base/wath_is_redis.html#forking
+写的很好，
+这也是当时没有回答出来的地方。
+
 ## RDB
 
 The RDB persistence is to create a snapshot of the copy of a time,
