@@ -5,7 +5,8 @@ os,2=OS
 os,1=操作系统
 os,3=Operation System
 csapp,1=深入理解计算机系统
-csapp,2=CS:APP
+csapp,2=CS: APP
+ostep,1=Operation System: Three Easy Pieces
 
 ; ========================================
 ; 符号输入
